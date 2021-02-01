@@ -1,0 +1,138 @@
+
+/*Universal selector*/
+*{
+   
+}
+/*End Universal selector*/
+
+/*body section*/
+/*
+body {
+    
+    background-color: #708090;
+    color: #f1f0f0;
+    
+}
+*/
+/*end of body section*/
+
+
+/*Head section*/
+h2, h3{
+color: black;
+margin: 20px;
+
+
+text-align: left;
+    font-size: x-large;
+}
+/*end section*/
+
+
+
+/*paragraph section*/
+p{
+    color: black;
+    margin: 20px;
+    font-size: 20px;
+}
+/*end of paragraph section*/
+
+
+
+/*navigation or menu section*/
+nav{
+    
+    padding: 20px;
+}
+
+nav>a{
+    
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+    margin: 20px;
+    
+    
+}
+
+nav>a:hover {
+    
+background-color: rgb(46, 141, 120);
+
+}
+/*ednd of navigation or menu section*/
+
+
+
+/*Another Contact form*/
+
+
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #217da8;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #217da8;
+}
+
+
+.container {
+    border-radius: 5px;
+    background-color: mediumpurple;
+    padding: 10px;
+    
+}
+
+
+.column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+@media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+
+.conus{
+    text-align: left;
+}
+
+
+/*End of another contact form*/
